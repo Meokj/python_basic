@@ -12,7 +12,7 @@ print('helloo\b')
 print('67%\r68%')
 # 使用 \t 表示水平制表符（让光标跳转到下一个制表位）
 print('1234123412341234')
-# 不管是什么环境去执行这个代码，一个制表位就是由4位组成的
+# 不管是什么环境去执行这个代码，一个制表位都是由4位组成的
 print('ab\tcd'.expandtabs(4))
 print('abc\td'.expandtabs(4))
 print('abcd\ta'.expandtabs(4))
